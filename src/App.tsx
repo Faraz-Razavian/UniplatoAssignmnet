@@ -7,7 +7,6 @@ import Home from './Components/Home';
 import { BrowserRouter as Router, Route, Routes,Link,NavLink } from "react-router-dom";
 
 function App() {
-
   return (
     <>
     <div className='topImage'>
