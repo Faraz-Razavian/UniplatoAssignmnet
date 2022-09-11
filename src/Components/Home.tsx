@@ -1,6 +1,7 @@
 import '../App.css';
 
 function Home() {
+  {document.title = 'Home'}
   return (
       <div className='empty'>
         <div className='text'>

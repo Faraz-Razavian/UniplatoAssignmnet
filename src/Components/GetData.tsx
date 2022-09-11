@@ -4,6 +4,7 @@ import '../App.css';
 import Ellipse from '../images/Ellipse.png'
 const PAGE_NUMBER = 1;
 function GetData() {
+    {document.title = 'Post'}
     type post={
         id:number,
         image:string,

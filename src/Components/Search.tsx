@@ -1,6 +1,7 @@
 import '../App.css';
 
 function Search() {
+  {document.title = 'Search'}
   return (
     <div className='empty'>
       <div className='text'>
