@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './App.css';
+import '../App.css';
 const PAGE_NUMBER = 1;
 function GetData() {
     const [posts,setPosts]= useState<any[]>([])
@@ -27,7 +27,7 @@ function GetData() {
         {
             posts.map((post)=>{
                 return(
-                    <div className='padding'>
+                    <div className='padding' key={post.id}>
                         <img
                             src={post.image}
                             alt={"Post ID: "+post.id}
