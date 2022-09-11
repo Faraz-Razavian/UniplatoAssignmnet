@@ -1,12 +1,11 @@
-import React from 'react';
-
 import '../App.css';
 
 function Search() {
-  
   return (
-    <div className='search'>
-      Search
+    <div className='empty'>
+      <div className='text'>
+        <span>Search</span>
+      </div>
     </div>
   );
 }

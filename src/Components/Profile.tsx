@@ -1,11 +1,11 @@
-import React from 'react';
-
 import '../App.css';
 
 function Profile() {
   return (
-    <div className='profile'>
-      Profile
+    <div className='empty'>
+      <div className='text'>
+        <span>Profile</span>
+      </div>
     </div>
   );
 }
