@@ -28,7 +28,7 @@ test('renders Profile', () => {
   expect(componentText).toBeInTheDocument();
 });
 
-it("returns the title of the first album", async () => {
+test("returns the title of the first album", async () => {
   axios.get.mockResolvedValue({
     data:{data:{data: [
       {
@@ -42,8 +42,6 @@ it("returns the title of the first album", async () => {
   
   const {getByText,container}=render(<GetData/>);
   await waitFor(() =>{
-    // const boxes = container.getElementsByClassName('padding');
-    // console.log(boxes.length)
     const componentText = getByText(/How Green Was My Valley/i);
     expect(componentText).toBeInTheDocument();
   })
